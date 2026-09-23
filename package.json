@@ -1,0 +1,11 @@
+{
+  "name": "art-motif-review",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "艺术元素时代化审校领域资料",
+  "scripts": {
+    "test": "node --test",
+    "build": "node --check src/art_motif_review.js"
+  }
+}
