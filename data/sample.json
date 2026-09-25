@@ -2,8 +2,26 @@
   "event_id": "sample-010-001",
   "kind": "MOTIF_PROPOSED",
   "occurred_at": "2026-09-20T09:00:00+08:00",
-  "subject_id": "demo-010",
+  "subject_id": "demo-motif-010",
   "payload": {
+    "motif_id": "demo-motif-010",
+    "source_evidence": {
+      "collection": "虚构馆藏（仅用于格式核对）",
+      "ref": "DEMO-010",
+      "custodian": "公有领域核对单"
+    },
+    "transformation_bounds": {
+      "allowed": ["换色", "等比缩放"],
+      "forbidden": ["打散重构"],
+      "max_deviation": 0.15
+    },
+    "rights_conditions": {
+      "license": "CC-BY-4.0",
+      "attribution": "虚构馆藏数字化件",
+      "territory": ["CN"],
+      "expiry": null
+    },
+    "markets": ["CN"],
     "note": "虚构资料，仅用于格式核对"
   }
 }
