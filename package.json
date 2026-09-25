@@ -6,6 +6,6 @@
   "description": "艺术元素时代化审校领域资料",
   "scripts": {
     "test": "node --test",
-    "build": "node --check src/art_motif_review.js"
+    "build": "node --check src/art_motif_review.js && node --check src/errors.js && node --check src/store.js && node --check src/governance_service.js"
   }
 }
